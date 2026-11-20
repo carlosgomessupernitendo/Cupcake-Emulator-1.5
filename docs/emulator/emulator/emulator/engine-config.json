@@ -1,0 +1,35 @@
+
+{
+  "project": "Cupcake Emulator 1.5",
+  "engine": "QEMU",
+  "engine_variant": "classic-android-qemu",
+  "guest_os": {
+    "name": "Android",
+    "version": "1.5",
+    "codename": "Cupcake",
+    "api_level": 3
+  },
+  "hardware": {
+    "architecture": "arm",
+    "platform": "goldfish",
+    "kernel": "2.6.27",
+    "display_width": 320,
+    "display_height": 480
+  },
+  "host": {
+    "platforms": [
+      "android",
+      "windows",
+      "linux",
+      "macos"
+    ]
+  },
+  "features": {
+    "touchscreen": true,
+    "virtual_keyboard": true,
+    "audio": true,
+    "persistent_storage": true,
+    "network_adaptation": true
+  },
+  "status": "research"
+}
