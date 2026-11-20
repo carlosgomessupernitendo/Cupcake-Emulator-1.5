@@ -1,0 +1,8 @@
+
+{
+  "catalog_version": 1,
+  "store_name": "Android Market",
+  "target_android": "1.5",
+  "target_api": 3,
+  "applications": []
+}
